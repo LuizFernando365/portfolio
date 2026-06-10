@@ -23,7 +23,7 @@ h1 {
 
 #apresentacao {
     background-image: url("fundo.png");
-    min-height: max-content; 
+    min-height: 100vh; 
     width: 100%;
     background-size: cover;
     background-position: top center;
@@ -718,7 +718,10 @@ h1 {
     .nav_menu{
         display: none;
     }
-
+  
+    #apresentacao {  
+      background-position: center center;
+    }
     
     
 }
