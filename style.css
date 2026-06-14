@@ -675,7 +675,7 @@ h1 {
     color: var(--texto-normal);
 }
 
-.contato_destaque {
+.contato_destaque{
     color: var(--texto-destaque)
 }
 
@@ -863,5 +863,59 @@ h1 {
         align-items: center;
         position: relative;
         margin-left: 40%;
+    }
+
+    .fa-square-instagram{
+        font-size: 80px;
+    }
+
+    .fa-square-linkedin{
+        font-size: 80px;
+    }
+
+    .fa-square-whatsapp{
+        font-size: 80px;
+    }
+
+    .servicos_headline{
+        font-size: clamp(2.5rem, 8vw, 5.5rem);
+    }
+
+    .servicos_subheadline{
+        font-size: xx-large;
+    }
+
+    .card {
+        position: relative;
+        width: 87%;
+        margin-top: 5%;
+    }
+
+    .card:nth-child(odd){
+            float: center;
+            clear: both;
+            transform: translateX(-25px);
+    }
+
+    .card:nth-child(even){
+        float: left;
+        clear: both;
+        transform: translateX(35px);
+    }
+
+    .timeline::before {
+        display: none;
+    }
+
+    .card::before{
+        display: none;
+    }
+
+    .card:nth-child(odd)::before{
+        display: none;
+    }
+
+    .card:nth-child(even)::before{
+        display: none;
     }
 }
