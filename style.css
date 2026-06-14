@@ -861,7 +861,7 @@ h1 {
         line-height: 1.6;
         font-size: xx-large;
         padding: 10px;
-        padding-top: 10px;
+        padding-top: 100px;
     }
 
     .fa-square-instagram{
@@ -920,6 +920,11 @@ h1 {
 
     .card {
         height: 420px;    
+    }
+
+    #servico{
+        margin-top: 300px;
+        margin-bottom: 300px;
     }
 
     .servico_num {
