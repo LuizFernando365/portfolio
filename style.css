@@ -678,6 +678,15 @@ h1 {
     color: var(--texto-destaque)
 }
 
+.contato_botao:hover{
+    background-color: var(--preto);
+}
+
+.link_botao:hover{
+    color: var(--texto-destaque);
+}
+
+
 @media screen and (max-width: 1170px){
     .nav_menu{
         display: none;
@@ -1012,5 +1021,39 @@ h1 {
         margin-top: 30px;
         position: relative;
         top: -40px;
+    }
+
+    .contato_principal {
+        width: 800px;
+        height: 1000px;
+        padding-top: 300px;
+    }
+
+    .contato_icone{
+        width: 250px;
+        height: 250px;
+        left: 30%;
+        margin: 10px;
+    }
+
+    .contato_headline {
+        font-size: clamp(2.5rem, 6vw, 5.5rem);
+    }
+
+    .contato_subheadline {
+        font-size: 30px;
+        display: block;
+        text-align: center;
+    }
+    .contato_botao{
+        width: 500px;
+        height: 100px;
+        left: 20%;
+    }
+
+    .link_botao{
+        text-decoration: none;
+        font-size: 40px;
+        color: var(--texto-normal);
     }
 }
