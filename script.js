@@ -9,26 +9,18 @@ menuMobile.addEventListener('click',()=>{
     menuMobile.classList.remove('abrir-menu');
 })
 
-document.addEventListener("DOMContentLoaded", () => {
-  const elementos = document.querySelectorAll(".surgir-abaixo");
+const reveals = document.querySelectorAll(".reveal");
 
-  function checarScroll() {
-    elementos.forEach((elemento) => {
-      // Posição do topo do elemento em relação à tela
-      const topoElemento = elemento.getBoundingClientRect().top;
-      // Altura da janela do navegador
-      const alturaTela = window.innerHeight;
-
-      // Só ativa se o elemento estiver pelo menos 100px para dentro da tela do usuário
-      if (topoElemento < alturaTela - 100) {
-        elemento.classList.add("ativo");
-      }
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("active");
+        }
     });
-  }
+}, {
+    threshold: 0.1
+});
 
-  // Roda a função uma vez ao entrar na página (para animar a primeira seção)
-  checarScroll();
-
-  // Roda a função toda vez que o usuário rolar a página
-  window.addEventListener("scroll", checarScroll);
+reveals.forEach((element) => {
+    observer.observe(element);
 });
