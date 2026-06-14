@@ -920,29 +920,16 @@ h1 {
     }
 
     .card {
-        padding: 10px;
-        height: 380px;
-        margin: 20px;
-        border-radius: 25px;
-        background-color: black;
-        border-style: solid;
-        border-width: 0px 1px 0px 1px;
-        border-color: rgb(179, 57, 0);
-        border-radius: 25px;
-        
+        height: 420px;    
     }
 
     .servico_num {
-        color: var(--texto-destaque);
         font-size: 50px;
-        padding-left: 10px;
     }
 
     .servico_icon {
         width: 200px;
         height: 200px;
-        justify-content: center;
-        display: flex;
     }
 
     .servico_img {
@@ -951,37 +938,39 @@ h1 {
         height: 350px;
         display: block;
         position: relative;
-        top: -50px;
+        top: -20px;
     }
 
     .servico_title {
-        color: var(--texto-normal);
-        margin: 0;
         font-weight: 500;
-        font-size: 40px;
-        position: relative;
-        top: -110px;
-    }
-
-    .servico_line {
-        border-top: 2px solid var(--texto-destaque);
-        position: relative;
-        top: -110px;
+        font-size: 50px;
     }
 
     .servico_caption {
-        color: var(--texto-cinza);
-        font-size: 20px;
-        margin: 0;
-        position: relative;
-        top: -110px;
+        font-size: 30px;
     }
 
-    .servico_head {
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        height: 100px;
-        margin-top: -20px;
+    .servico4_img{
+        width: 350px;
+        height: 350px;
+        top: -50px;
+    }
+
+    .servico5_img{
+        width: 350px;
+        height: 350px;
+        top: 10px;
+    }
+
+    .servico6_img{
+        width: 370px;
+        height: 350px;
+        top: -40px;
+    }
+
+    .servico7_img{
+        width: 400px;
+        height: 350px;
+        top: -40px;
     }
 }
