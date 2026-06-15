@@ -733,11 +733,6 @@ html {
     border-radius: 10px;
 }
 
-.link_botao{
-    text-decoration: none;
-    color: var(--texto-normal);
-}
-
 .contato_destaque{
     color: var(--texto-destaque)
 }
@@ -745,11 +740,6 @@ html {
 .contato_botao:hover{
     background-color: var(--preto);
 }
-
-.link_botao:hover{
-    color: var(--texto-destaque);
-}
-
 
 @media screen and (max-width: 1170px){
     .nav_menu{
