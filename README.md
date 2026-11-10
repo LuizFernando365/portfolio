@@ -19,4 +19,4 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 
 ## Link de Acesso
 
-Você pode acessar o projeto online clicando aqui: [https://portfolio-q9z4oz7dk-luizcruzlopes017-7692s-projects.vercel.app]
+Você pode acessar o projeto online clicando aqui: [https://portfolio-r7v14dkll-luizcruzlopes017-7692s-projects.vercel.app]
